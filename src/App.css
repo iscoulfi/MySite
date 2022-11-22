@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  margin: 0 250px;
+  border-bottom: 1px solid #ffffff;
+}
+
+nav a {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.active {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.myPhoto {
+  padding: 10px;
+  max-height: 65vh;
+}
+
+.home {
+  margin-top: 10px;
+}
+
+h1,
+h2 {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.aboutMe {
+  max-width: 50%;
+  max-height: 50%;
+  margin: auto;
+  margin-top: 20vh;
+}
+
+.aboutMe h2 {
+  padding: 20px;
+}
+
+.skills {
+  margin-top: 20vh;
+}
+
+.skills img {
+  margin-top: 40px;
+  height: 150px;
+}
+
+.skillsRow {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 250px;
+}
+
+.contacts {
+  margin-top: 15vh;
+}
+
+.btn {
+  position: relative;
+  top: 50px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  padding: 7px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.flex-contacts {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 600px;
+  top: 100px;
+}
+
+.flex-contacts img {
+  height: 50px;
+}
