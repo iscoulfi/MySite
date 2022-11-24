@@ -1,0 +1,14 @@
+.main {
+  margin: 10vh;
+}
+
+.main img {
+  margin-top: 40px;
+  max-height: 150px;
+}
+
+.skillsRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

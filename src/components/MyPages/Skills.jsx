@@ -1,8 +1,10 @@
-const Skills = () => {
+import styles from './Skills.module.css';
+
+const Skills = ({ t }) => {
   return (
-    <div className="skills">
-      <h2>I work with</h2>
-      <div className="skillsRow">
+    <div className={styles.main}>
+      <h1>{t('I work with')}</h1>
+      <div className={styles.skillsRow}>
         <div>
           <img src="./images/html-w.png" alt="" />
           <p>HTML</p>

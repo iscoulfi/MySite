@@ -1,0 +1,27 @@
+.main {
+  margin-top: 10vh;
+}
+
+.btn {
+  position: relative;
+  top: 50px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  padding: 7px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.flexContacts {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  width: 25%;
+  top: 100px;
+}
+
+.flexContacts img {
+  height: 50px;
+  margin: 0 15px;
+}

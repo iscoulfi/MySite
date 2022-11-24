@@ -1,10 +1,10 @@
 import { Outlet } from 'react-router-dom';
 import Menu from '../components/UI/Menu';
 
-const MainLayout = () => {
+const MainLayout = ({ t }) => {
   return (
     <>
-      <Menu />
+      <Menu t={t} />
       <Outlet />
     </>
   );
